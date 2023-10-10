@@ -1,0 +1,36 @@
+{
+  "name": "eris-parser",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc && tsc-alias",
+    "format": "prettier -w",
+    "lint": "eslint . --ext .ts"
+  },
+  "keywords": [
+    "JSON",
+    "parse",
+    "parser"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.4",
+    "eslint": "^8.51.0",
+    "prettier": "^3.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eris-apple/eris-json.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eris-apple/eris-json/issues"
+  },
+  "homepage": "https://github.com/eris-apple/eris-json#readme"
+}
